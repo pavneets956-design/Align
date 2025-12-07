@@ -1,0 +1,24 @@
+{
+  "name": "@talking-light/ingest",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "ingest:init": "tsx scripts/init-db.ts",
+    "ingest:bootstrap": "tsx bootstrap_corpus.ts",
+    "ingest:embed": "tsx tag_and_embed.ts",
+    "ingest:import": "tsx import_custom.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.5",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.53.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
+

@@ -1,0 +1,9 @@
+﻿node_modules/
+.expo/
+.expo-shared/
+.DS_Store
+server/ingest/data/
+.env
+apps/mobile/.expo/
+dist/
+server/worker/dist/

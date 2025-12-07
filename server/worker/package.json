@@ -1,0 +1,22 @@
+﻿{
+  "name": "talking-light-worker",
+  "version": "1.0.0",
+  "private": true,
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --format=esm --platform=browser --outfile=dist/index.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.5",
+    "itty-router": "^4.0.23",
+    "openai": "^4.53.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241018.0",
+    "esbuild": "^0.21.5",
+    "typescript": "5.3.3"
+  }
+}

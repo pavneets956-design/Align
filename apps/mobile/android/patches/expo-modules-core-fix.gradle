@@ -1,0 +1,27 @@
+// Patch for Expo 50 ExpoModulesCorePlugin android() method issue
+// This file should be applied before ExpoModulesCorePlugin
+
+// Monkey patch the KotlinExpoModulesCorePlugin to defer android() configuration
+ext.patchedKotlinExpoModulesCorePlugin = {
+  project.afterEvaluate {
+    if (project.plugins.hasPlugin('kotlin-android') && project.hasProperty('android')) {
+      try {
+        project.android {
+          compileSdkVersion project.ext.safeExtGet("compileSdkVersion", 34)
+
+          defaultConfig {
+            minSdkVersion project.ext.safeExtGet("minSdkVersion", 23)
+            targetSdkVersion project.ext.safeExtGet("targetSdkVersion", 34)
+          }
+
+          lintOptions {
+            abortOnError false
+          }
+        }
+      } catch (e) {
+        // Ignore if android block already configured
+      }
+    }
+  }
+}
+

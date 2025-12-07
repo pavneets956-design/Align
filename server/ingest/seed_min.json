@@ -1,0 +1,113 @@
+[
+  {
+    "scripture": "Tao Te Ching",
+    "ref": "Chapter 1",
+    "original": "The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.",
+    "translation": "The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.",
+    "paraphrase": "What can be fully grasped or named is not the deepest truth. The essence lies beyond words.",
+    "virtues": ["presence", "clarity"],
+    "states": ["confusion", "seeking"],
+    "themes": ["stillness", "non-attachment"],
+    "practice": "breathe 4-2-6"
+  },
+  {
+    "scripture": "Dhammapada",
+    "ref": "Chapter 1",
+    "original": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.",
+    "translation": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.",
+    "paraphrase": "Your inner world shapes your experience. Notice your thoughts without judgment.",
+    "virtues": ["presence", "clarity"],
+    "states": ["overthinking", "self-doubt"],
+    "themes": ["stillness", "acceptance"],
+    "practice": "notice feet"
+  },
+  {
+    "scripture": "Bhagavad Gita",
+    "ref": "Chapter 2",
+    "original": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action.",
+    "translation": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action.",
+    "paraphrase": "Do what is yours to do, then let go of the outcome. This brings peace.",
+    "virtues": ["surrender", "trust"],
+    "states": ["anxiety", "overthinking"],
+    "themes": ["non-attachment", "letting-go"],
+    "practice": "soften jaw"
+  },
+  {
+    "scripture": "Meditations",
+    "ref": "Book 2",
+    "original": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "translation": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "paraphrase": "Your inner response is your own. External events happen, but you choose how to meet them.",
+    "virtues": ["presence", "courage"],
+    "states": ["anxiety", "anger"],
+    "themes": ["acceptance", "courage"],
+    "practice": "hand on heart"
+  },
+  {
+    "scripture": "Bible KJV Psalms",
+    "ref": "Psalm 23:1",
+    "original": "The Lord is my shepherd; I shall not want.",
+    "translation": "The Lord is my shepherd; I shall not want.",
+    "paraphrase": "When you trust in the greater flow, you find that you have enough.",
+    "virtues": ["trust", "surrender"],
+    "states": ["anxiety", "loneliness"],
+    "themes": ["trust", "acceptance"],
+    "practice": "breathe 4-2-6"
+  },
+  {
+    "scripture": "Bible KJV Proverbs",
+    "ref": "Proverbs 3:5",
+    "original": "Trust in the Lord with all thine heart; and lean not unto thine own understanding.",
+    "translation": "Trust in the Lord with all thine heart; and lean not unto thine own understanding.",
+    "paraphrase": "Trust deeply, beyond what your mind can figure out. Something wiser holds you.",
+    "virtues": ["trust", "surrender"],
+    "states": ["anxiety", "confusion"],
+    "themes": ["trust", "surrender"],
+    "practice": "hand on heart"
+  },
+  {
+    "scripture": "Tao Te Ching",
+    "ref": "Chapter 8",
+    "original": "The highest good is like water. Water gives life to the ten thousand things and does not strive.",
+    "translation": "The highest good is like water. Water gives life to the ten thousand things and does not strive.",
+    "paraphrase": "Be like water: gentle, flowing, giving without effort. This is true strength.",
+    "virtues": ["compassion", "surrender"],
+    "states": ["anger", "overthinking"],
+    "themes": ["letting-go", "service"],
+    "practice": "notice feet"
+  },
+  {
+    "scripture": "Dhammapada",
+    "ref": "Chapter 3",
+    "original": "Hatred does not cease by hatred, but by love alone is healed. This is an ancient and eternal law.",
+    "translation": "Hatred does not cease by hatred, but by love alone is healed. This is an ancient and eternal law.",
+    "paraphrase": "Only love can heal what hatred creates. This truth is timeless.",
+    "virtues": ["love", "compassion"],
+    "states": ["anger", "loneliness"],
+    "themes": ["compassion", "love"],
+    "practice": "hand on heart"
+  },
+  {
+    "scripture": "Bhagavad Gita",
+    "ref": "Chapter 6",
+    "original": "A person is said to be established in self-realization and is called a yogi when he is satisfied by knowledge and understanding.",
+    "translation": "A person is said to be established in self-realization and is called a yogi when he is satisfied by knowledge and understanding.",
+    "paraphrase": "Peace comes when you rest in understanding, not in having more.",
+    "virtues": ["presence", "clarity"],
+    "states": ["seeking", "confusion"],
+    "themes": ["stillness", "acceptance"],
+    "practice": "breathe 4-2-6"
+  },
+  {
+    "scripture": "Meditations",
+    "ref": "Book 4",
+    "original": "The happiness of your life depends upon the quality of your thoughts.",
+    "translation": "The happiness of your life depends upon the quality of your thoughts.",
+    "paraphrase": "Your inner landscape shapes your days. Tend to your thoughts with care.",
+    "virtues": ["clarity", "presence"],
+    "states": ["overthinking", "self-doubt"],
+    "themes": ["stillness", "acceptance"],
+    "practice": "notice feet"
+  }
+]
+

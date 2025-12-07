@@ -1,0 +1,14 @@
+﻿name = "talking-light-worker"
+main = "dist/index.mjs"
+compatibility_date = "2024-10-01"
+
+[vars]
+ALLOWED_ORIGINS = "http://localhost:19006,exp://"  # override in production
+
+[kv_namespaces]
+
+[ai]
+binding = "AI"
+
+[dev]
+port = 8787
