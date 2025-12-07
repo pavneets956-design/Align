@@ -5,7 +5,7 @@
  * with Osho-style responses.
  */
 
-import TalkingLightChat from './TalkingLightChat';
+import { TalkingLightChat } from './TalkingLightChat';
 
 // Example 1: Basic usage
 export function BasicExample() {
@@ -16,24 +16,13 @@ export function BasicExample() {
   );
 }
 
-// Example 2: With custom props
+// Example 2: With custom styling (component doesn't accept props currently)
 export function CustomExample() {
   return (
     <div className="h-screen p-6 bg-gradient-to-b from-purple-50 to-blue-50">
-      <TalkingLightChat
-        initialMode="divine"
-        language="en"
-        placeholder="What's on your heart?"
-        showModeSelector={true}
-        autoRead={false}
-        onMessageSent={(message) => {
-          console.log('User sent:', message);
-        }}
-        onResponseReceived={(response) => {
-          console.log('AI responded:', response);
-        }}
-        className="max-w-4xl mx-auto"
-      />
+      <div className="max-w-4xl mx-auto">
+        <TalkingLightChat />
+      </div>
     </div>
   );
 }
@@ -46,24 +35,17 @@ export function PageExample() {
         <h1 className="text-2xl font-bold">Talking Light</h1>
       </header>
       <main className="container mx-auto p-6">
-        <TalkingLightChat
-          initialMode="divine"
-          showModeSelector={true}
-        />
+        <TalkingLightChat />
       </main>
     </div>
   );
 }
 
-// Example 4: Without mode selector (single mode)
+// Example 4: Simple usage
 export function SingleModeExample() {
   return (
     <div className="h-screen p-6">
-      <TalkingLightChat
-        initialMode="divine"
-        showModeSelector={false}
-        placeholder="Share what's on your heart..."
-      />
+      <TalkingLightChat />
     </div>
   );
 }

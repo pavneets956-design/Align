@@ -50,7 +50,7 @@ export async function POST(request: NextRequest) {
       .order('day_number', { ascending: true });
 
     const completedTasks = weekDays?.filter(d => d.completed).length || 0;
-    const missedTasks = weekDays?.length - completedTasks;
+    const missedTasks = (weekDays?.length || 0) - completedTasks;
 
     // Generate AI review
     const reviewPrompt = `You are ALIGN PRO's weekly review engine.

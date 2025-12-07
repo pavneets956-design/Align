@@ -1,6 +1,9 @@
 'use client';
 
-import { ThemeMeta } from "../lib/theme";
+interface ThemeMeta {
+  label: string;
+  value: string;
+}
 
 interface Props {
   current: ThemeMeta;

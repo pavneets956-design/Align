@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
+import { createClient } from '@supabase/supabase-js';
 import { TALKING_LIGHT_SYSTEM_PROMPT } from '@/src/lib/talkingLightPrompt';
 import { ACTION_COACH_SYSTEM_PROMPT } from '@/src/lib/actionCoachPrompt';
 import { classifyMessage, MessageType } from '@/src/lib/talkingLightClassifier';
+import { validateTalkingLightResponse } from '@/src/lib/talkingLightValidator';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || '',
