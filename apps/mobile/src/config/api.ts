@@ -36,7 +36,7 @@
  * 2. Rebuild the app in release mode
  * 3. The app will then use the deployed backend instead of localhost
  */
-const PROD_BACKEND_URL = 'https://your-app.vercel.app'; // TODO: Replace with your Vercel URL
+const PROD_BACKEND_URL = 'https://align-48zp7uuuk-pavs-projects-2a8231d9.vercel.app';
 
 // Development backend URLs (only used when __DEV__ = true)
 const DEV_LOCALHOST = 'http://localhost:3000/api/align'; // Requires: adb reverse tcp:3000 tcp:3000
